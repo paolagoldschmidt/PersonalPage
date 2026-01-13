@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Paola Gavazzoni</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Paola Gavazzoni</h1>
+        <h2>Hardware • Cloud • Engenharia de Software</h2>
+
+        <p class="hero-description">
+            Líder Técnica Sênior com experiência sólida em Hardware, Software,
+            Arquitetura e Segurança em Nuvem.
+        </p>
+
+        <div class="hero-links">
+            <a href="https://www.linkedin.com/in/paola-goldschmidt-840341137" target="_blank">LinkedIn</a>
+            <a href="mailto:paolagoldschmid12@gmail.com">Contato</a>
+        </div>
+        
+        <div class="contact-info">
+            <p>Curitiba, Paraná, Brasil </p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTEÚDO DINÂMICO -->
+<section class="tabs-container">
+    <div class="tabs">
+        <button class="tab-button active" onclick="openTab(event, 'summary-experience')">Resumo Profissional</button>
+        <button class="tab-button" onclick="openTab(event, 'projects')">Projetos Pessoais</button>
+    </div>
+</section>
+
+<div id="summary-experience" class="tab-content active">
+    <!-- SOBRE -->
+    <section class="about">
+        <p>
+            Especialista em transformação digital e otimização de processos, com histórico comprovado de liderança de equipes multidisciplinares
+            e implementação de soluções escaláveis. Atuação em sistemas financeiros críticos e arquitetura cloud-native.
+        </p>
+    </section>
+
+    <!-- TRAJETÓRIA -->
+    <section id="experience" class="career">
+        <h3>Experiência Profissional</h3>
+        <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Outubro de 2024 – Atual</div>
+            <div class="timeline-content">
+                <h4>Squad Leader — Magalu Cloud</h4>
+                <p>Liderança técnica em sistemas financeiros críticos e arquitetura cloud-native na primeira cloud pública do Brasil.</p>
+                <ul class="job-details">
+                    <li>Arquitetura do sistema de Revenue Assurance</li>
+                    <li>Design de integrações enterprise críticas</li>
+                    <li>Liderança técnica de squads DevOps</li>
+                    <li>Implantação da norma ISO 27001</li>
+                </ul>
+                <p class="stack"><strong>Stack:</strong> Go, Node.js 22, PostgreSQL, RabbitMQ, React, Next.js 15, TypeScript, TailwindCSS, Kubernetes, ArgoCD, Helm, Docker, GitLab CI/CD, Grafana, Prometheus, OpenSearch, WireGuard</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Novembro de 2023 – Outubro de 2024</div>
+            <div class="timeline-content">
+                <h4>Líder de Produto e Engenharia — Groner</h4>
+                <p>Reescrita e modernização de sistemas legados.</p>
+                <ul class="job-details">
+                    <li>QA Automation com Selenium</li>
+                    <li>Integração Jira via N8N (100% funcional)</li>
+                    <li>Modernização de infra cloud e DevOps</li>
+                    <li>Refatoração do produto de CRM</li>
+                </ul>
+                <p class="stack"><strong>Tecnologias:</strong> AWS, Python, .NET, SQL Server, DataDog, Selenium, N8N</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Abril de 2023 – Novembro de 2023</div>
+            <div class="timeline-content">
+                <h4>Head de Produtos — Klever Tech</h4>
+                <p>Startup FinTech focada em análise de crédito e regulamentações financeiras.</p>
+                <ul class="job-details">
+                    <li>Liderança da estratégia tecnológica</li>
+                    <li>Desenvolvimento de plataforma SaaS regulamentada</li>
+                    <li>Gestão de stakeholders e investidores</li>
+                    <li>Compliance LGPD e regulamentações BACEN</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Novembro de 2022 – Maio de 2023</div>
+            <div class="timeline-content">
+                <h4>Gerente de Projetos — DoroTech (Claro Pay)</h4>
+                <p>Gestão técnica de projeto enterprise crítico para pagamentos.</p>
+                <ul class="job-details">
+                    <li>Entrega 100% bem-sucedida do projeto Claro Pay</li>
+                    <li>Implementação de práticas DevOps e security by design</li>
+                    <li>Documentação técnica e transferência de conhecimento</li>
+                </ul>
+                <p class="stack"><strong>Tecnologias:</strong> AWS, Java Quarkus, Microservices, Payment Systems</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Janeiro de 2022 – Junho de 2022</div>
+            <div class="timeline-content">
+                <h4>Product Owner — Kron Digital</h4>
+                <ul class="job-details">
+                    <li>Product Owner do projeto LDC SHE Digital</li>
+                    <li>Gestão de backlog e definição de requisitos</li>
+                    <li>Atuação em projetos para o Bradesco</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Agosto de 2021 – Janeiro de 2022</div>
+            <div class="timeline-content">
+                <h4>Product Owner — SóCarrão.com</h4>
+                <ul class="job-details">
+                    <li>Definição de roadmap e priorização de backlog</li>
+                    <li>Análise de métricas e otimização de conversão</li>
+                    <li>Gestão de releases</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Abril de 2020 – Abril de 2021</div>
+            <div class="timeline-content">
+                <h4>Assistente de TI — Promefarma</h4>
+                <ul class="job-details">
+                    <li>Bots para automação de compras licitatórias</li>
+                    <li>Automação de processos farmacêuticos</li>
+                    <li>Integração com sistema Winner</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Fevereiro de 2018 – Setembro de 2018</div>
+            <div class="timeline-content">
+                <h4>Developer Analyst — PG Mais</h4>
+                <ul class="job-details">
+                    <li>Desenvolvimento de APIs sistêmicas</li>
+                    <li>Automação de processos</li>
+                    <li>Integrações FTP e sistemas de URA</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="education-languages">
+    <div class="education">
+        <h3>Formação Acadêmica</h3>
+        <ul>
+            <li>Pós-graduação em Cibersegurança — PUC Paraná (2025–2027)</li>
+            <li>Pós-graduação Lato Sensu em Tecnologia da Informação — MIT (2022)</li>
+            <li>Bacharelado em Análise e Desenvolvimento de Sistemas — Estácio (2024–2025)</li>
+            <li>Formação em Planejamento e Escalabilidade — G4 Educação (2023)</li>
+        </ul>
+    </div>
+    <div class="languages">
+        <h3>Idiomas</h3>
+        <ul>
+            <li>Inglês — Profissional</li>
+            <li>Espanhol — Profissional</li>
+        </ul>
+    </div>
+</section>
+</div>
+
+<!-- PROJETOS PESSOAIS -->
+<section id="projects" class="career tab-content">
+    <h3>Projetos & Publicações</h3>
+    <div class="timeline">
+
+        <!-- PROJETO 2 -->
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">LinkedIn • Arduino • Tecnologia</div>
+            <div class="timeline-content">
+                <h4>Dispenser de liquidos automatico</h4>
+                <p>
+                    Sensor de presenca e bomba peristaltica usando biblioteca 
+                    <a href="https://www.arduinolibraries.info/libraries/ultrasonic" target="_blank" style="color: inherit; text-decoration: underline;">ultrasonic</a> 
+                    para dispenser de liquidos.
+                </p>
+                <figure class="project-figure">
+                    <img src="assets/images/dispenserAutomatico.PNG" alt="Dispenser de líquidos automático com Arduino">
+                    <figcaption>Dispenser de líquidos automático com sensor de presença.</figcaption>
+                </figure>
+                <a href="https://github.com/paolagoldschmidt/Dispenser-Automatico/blob/main/Programação%20da%20bomba"
+                   target="_blank" class="post-link">
+                    Ver repositório no GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- PROJETO 3 -->
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Projeto Atual • Web Design • IA</div>
+            <div class="timeline-content">
+                <h4>Personal Page</h4>
+                <p>
+                    Projeto de portifolio pessoal, para expor minhas habilidades com programação web nas stacks HTML, CSS e JavaScript.
+                </p>
+                <a href="https://github.com/paolagoldschmidt/PersonalPage" target="_blank" class="post-link">
+                    Ver repositório no GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+        tabcontent[i].classList.remove("active");
+    }
+    tablinks = document.getElementsByClassName("tab-button");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active");
+    }
+    document.getElementById(tabName).style.display = "block";
+    document.getElementById(tabName).classList.add("active");
+    evt.currentTarget.classList.add("active");
+}
+</script>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>© Paola Gavazzoni</p>
+</footer>
+
+</body>
+</html>
