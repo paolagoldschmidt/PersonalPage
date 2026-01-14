@@ -4,8 +4,8 @@ import re
 
 class TestWebsite(unittest.TestCase):
     def setUp(self):
-        # O diretório base é o diretório PersonalPage
-        self.base_path = os.path.join(os.getcwd(), 'PersonalPage')
+        # O diretório base é a raiz do projeto
+        self.base_path = os.getcwd()
         self.index_path = os.path.join(self.base_path, 'index.html')
         self.script_path = os.path.join(self.base_path, 'script.js')
 

@@ -32,6 +32,45 @@ section, footer {
     padding: 4rem 1.5rem;
 }
 
+/* LANGUAGE SWITCHER */
+.language-switcher {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    z-index: 1000;
+    display: flex;
+    gap: 0.5rem;
+    background: rgba(4, 22, 40, 0.8);
+    padding: 0.5rem;
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(5px);
+}
+
+.lang-btn {
+    background: none;
+    border: 1px solid transparent;
+    color: var(--text-muted);
+    padding: 0.3rem 0.6rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+}
+
+.lang-btn:hover {
+    color: var(--tron-cyan);
+    border-color: rgba(0, 251, 255, 0.3);
+}
+
+.lang-btn.active {
+    color: #000;
+    background: var(--tron-cyan);
+    border-color: var(--tron-cyan);
+    box-shadow: 0 0 10px var(--tron-cyan);
+}
+
 /* HERO */
 .hero {
     padding-top: 10rem;
